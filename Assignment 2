@@ -1,0 +1,218 @@
+Question 1:
+abhishek@abhishek-TUF-Gaming:~$ ls -l -t
+total 600
+drwxrwxr-x  2 abhishek abhishek   4096 May 31 22:13 'OS Assignment'
+-rw-rw-r--  1 abhishek abhishek      0 May 31 20:54  touch
+-rw-rw-r--  1 abhishek abhishek      0 May 31 20:53  file7.txt
+-rw-rw-r--  1 abhishek abhishek      0 May 31 20:53  file8.txt
+-rw-rw-r--  1 abhishek abhishek     38 May 31 19:57  file4.tx
+-rw-rw-r--  1 abhishek abhishek      0 May 31 17:21  Hello
+drwxrwxrwx  3 abhishek abhishek   4096 May 31 17:20  OS
+drwxr-xr-x  2 abhishek abhishek   4096 Apr 21 14:57  Desktop
+drwxr-xr-x  4 abhishek abhishek   4096 Apr 20 14:36  Downloads
+drwxrwxr-x 15 abhishek abhishek   4096 Apr 20 09:22  mern
+drwxrwxr-x 16 abhishek abhishek   4096 Apr 20 00:46  wpt
+-rw-rw-r--  1 abhishek abhishek 389414 Apr 19 17:39  WPT_240344220005.zip
+drwxrwxr-x  3 abhishek abhishek   4096 Apr 19 17:38  WPT_240344220005
+drwxrwxr-x  4 abhishek abhishek   4096 Apr 12 18:07  Postman
+drwxrwxr-x 10 abhishek abhishek   4096 Apr 10 17:41  WPT_Assignments
+drwxrwxr-x  4 abhishek abhishek   4096 Mar 31 20:42  dbt
+-rw-rw-r--  1 abhishek abhishek   2265 Mar 30 19:52  DBT_240344220005.zip
+drwxrwxr-x  2 abhishek abhishek   4096 Mar 30 19:48  DBT_240344220005
+-rw-rw-r--  1 abhishek abhishek   3430 Mar 30 16:19  DBT_Practice
+-rw-rw-r--  1 abhishek abhishek  43421 Mar 28 22:21 'Screenshot from 2024-03-28 22-11-13.png'
+drwxrwxr-x  2 abhishek abhishek   4096 Mar 26 17:23 'DBT Assignments WORD DOCUMENT'
+drwxrwxr-x  3 abhishek abhishek   4096 Mar 26 17:23  DBT_Assignments
+drwxrwxr-x 13 abhishek abhishek   4096 Mar 18 17:37  CPP_Assignments
+drwxrwxr-x 15 abhishek abhishek   4096 Mar 17 10:39  cpp
+drwxrwxr-x  2 abhishek abhishek   4096 Mar 17 10:07  CPP-240344220005
+drwxr-xr-x  3 abhishek abhishek   4096 Mar 16 16:38  Pictures
+-rw-rw-r--  1 abhishek abhishek  14452 Mar 16 16:35  CPP-240344220005.zip
+drwxrwxr-x  5 abhishek abhishek   4096 Mar  7 23:24  DAC_C++_Assignment
+-rw-rw-r--  1 abhishek abhishek  40010 Mar  7 15:24  DAC_Prep_Assignment.zip
+drwxrwxr-x  4 abhishek abhishek   4096 Mar  7 14:41  DAC_Prep_Assignment
+drwxr-xr-x  2 abhishek abhishek   4096 Mar  4 04:03  Documents
+drwxr-xr-x  2 abhishek abhishek   4096 Mar  4 04:03  Music
+drwxr-xr-x  2 abhishek abhishek   4096 Mar  4 04:03  Public
+drwxr-xr-x  2 abhishek abhishek   4096 Mar  4 04:03  Templates
+drwxr-xr-x  2 abhishek abhishek   4096 Mar  4 04:03  Videos
+drwxrwxr-x  2 abhishek abhishek   4096 Mar  3 22:56 'whatsapp downloads'
+drwx------  6 abhishek abhishek   4096 Mar  3 22:50  snap
+
+
+
+Question 2:
+abhishek@abhishek-TUF-Gaming:~$ ls -l -S -h
+total 600K
+-rw-rw-r--  1 abhishek abhishek 381K Apr 19 17:39  WPT_240344220005.zip
+-rw-rw-r--  1 abhishek abhishek  43K Mar 28 22:21 'Screenshot from 2024-03-28 22-11-13.png'
+-rw-rw-r--  1 abhishek abhishek  40K Mar  7 15:24  DAC_Prep_Assignment.zip
+-rw-rw-r--  1 abhishek abhishek  15K Mar 16 16:35  CPP-240344220005.zip
+drwxrwxr-x 15 abhishek abhishek 4.0K Mar 17 10:39  cpp
+drwxrwxr-x  2 abhishek abhishek 4.0K Mar 17 10:07  CPP-240344220005
+drwxrwxr-x 13 abhishek abhishek 4.0K Mar 18 17:37  CPP_Assignments
+drwxrwxr-x  5 abhishek abhishek 4.0K Mar  7 23:24  DAC_C++_Assignment
+drwxrwxr-x  4 abhishek abhishek 4.0K Mar  7 14:41  DAC_Prep_Assignment
+drwxrwxr-x  4 abhishek abhishek 4.0K Mar 31 20:42  dbt
+drwxrwxr-x  2 abhishek abhishek 4.0K Mar 30 19:48  DBT_240344220005
+drwxrwxr-x  3 abhishek abhishek 4.0K Mar 26 17:23  DBT_Assignments
+drwxrwxr-x  2 abhishek abhishek 4.0K Mar 26 17:23 'DBT Assignments WORD DOCUMENT'
+drwxr-xr-x  2 abhishek abhishek 4.0K Apr 21 14:57  Desktop
+drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Documents
+drwxr-xr-x  4 abhishek abhishek 4.0K Apr 20 14:36  Downloads
+drwxrwxr-x 15 abhishek abhishek 4.0K Apr 20 09:22  mern
+drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Music
+drwxrwxrwx  3 abhishek abhishek 4.0K May 31 17:20  OS
+drwxrwxr-x  2 abhishek abhishek 4.0K May 31 22:13 'OS Assignment'
+drwxr-xr-x  3 abhishek abhishek 4.0K Mar 16 16:38  Pictures
+drwxrwxr-x  4 abhishek abhishek 4.0K Apr 12 18:07  Postman
+drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Public
+drwx------  6 abhishek abhishek 4.0K Mar  3 22:50  snap
+drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Templates
+drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Videos
+drwxrwxr-x  2 abhishek abhishek 4.0K Mar  3 22:56 'whatsapp downloads'
+drwxrwxr-x 16 abhishek abhishek 4.0K Apr 20 00:46  wpt
+drwxrwxr-x  3 abhishek abhishek 4.0K Apr 19 17:38  WPT_240344220005
+drwxrwxr-x 10 abhishek abhishek 4.0K Apr 10 17:41  WPT_Assignments
+-rw-rw-r--  1 abhishek abhishek 3.4K Mar 30 16:19  DBT_Practice
+-rw-rw-r--  1 abhishek abhishek 2.3K Mar 30 19:52  DBT_240344220005.zip
+-rw-rw-r--  1 abhishek abhishek   38 May 31 19:57  file4.tx
+-rw-rw-r--  1 abhishek abhishek    0 May 31 20:53  file7.txt
+-rw-rw-r--  1 abhishek abhishek    0 May 31 20:53  file8.txt
+-rw-rw-r--  1 abhishek abhishek    0 May 31 17:21  Hello
+-rw-rw-r--  1 abhishek abhishek    0 May 31 20:54  touch
+
+
+
+Question 3:
+total 600K
+ 402274 drwxrwxr-x 15 abhishek abhishek 4.0K Mar 17 10:39  cpp
+ 131211 drwxrwxr-x  2 abhishek abhishek 4.0K Mar 17 10:07  CPP-240344220005
+ 131223 -rw-rw-r--  1 abhishek abhishek  15K Mar 16 16:35  CPP-240344220005.zip
+ 131084 drwxrwxr-x 13 abhishek abhishek 4.0K Mar 18 17:37  CPP_Assignments
+ 406984 drwxrwxr-x  5 abhishek abhishek 4.0K Mar  7 23:24  DAC_C++_Assignment
+ 406485 drwxrwxr-x  4 abhishek abhishek 4.0K Mar  7 14:41  DAC_Prep_Assignment
+ 131081 -rw-rw-r--  1 abhishek abhishek  40K Mar  7 15:24  DAC_Prep_Assignment.zip
+ 262160 drwxrwxr-x  4 abhishek abhishek 4.0K Mar 31 20:42  dbt
+ 262370 drwxrwxr-x  2 abhishek abhishek 4.0K Mar 30 19:48  DBT_240344220005
+ 430121 -rw-rw-r--  1 abhishek abhishek 2.3K Mar 30 19:52  DBT_240344220005.zip
+ 262217 drwxrwxr-x  3 abhishek abhishek 4.0K Mar 26 17:23  DBT_Assignments
+ 262245 drwxrwxr-x  2 abhishek abhishek 4.0K Mar 26 17:23 'DBT Assignments WORD DOCUMENT'
+ 403783 -rw-rw-r--  1 abhishek abhishek 3.4K Mar 30 16:19  DBT_Practice
+ 393350 drwxr-xr-x  2 abhishek abhishek 4.0K Apr 21 14:57  Desktop
+ 393355 drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Documents
+ 393352 drwxr-xr-x  4 abhishek abhishek 4.0K Apr 20 14:36  Downloads
+4718608 -rw-rw-r--  1 abhishek abhishek   38 May 31 19:57  file4.tx
+ 137341 -rw-rw-r--  1 abhishek abhishek    0 May 31 20:53  file7.txt
+ 137342 -rw-rw-r--  1 abhishek abhishek    0 May 31 20:53  file8.txt
+ 131347 -rw-rw-r--  1 abhishek abhishek    0 May 31 17:21  Hello
+ 131271 drwxrwxr-x 15 abhishek abhishek 4.0K Apr 20 09:22  mern
+ 393356 drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Music
+1576260 drwxrwxrwx  3 abhishek abhishek 4.0K May 31 17:20  OS
+2660079 drwxrwxr-x  2 abhishek abhishek 4.0K May 31 22:13 'OS Assignment'
+ 393357 drwxr-xr-x  3 abhishek abhishek 4.0K Mar 16 16:38  Pictures
+ 264049 drwxrwxr-x  4 abhishek abhishek 4.0K Apr 12 18:07  Postman
+ 393354 drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Public
+ 131237 -rw-rw-r--  1 abhishek abhishek  43K Mar 28 22:21 'Screenshot from 2024-03-28 22-11-13.png'
+ 393218 drwx------  6 abhishek abhishek 4.0K Mar  3 22:50  snap
+ 393353 drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Templates
+ 137343 -rw-rw-r--  1 abhishek abhishek    0 May 31 20:54  touch
+ 393358 drwxr-xr-x  2 abhishek abhishek 4.0K Mar  4 04:03  Videos
+ 399008 drwxrwxr-x  2 abhishek abhishek 4.0K Mar  3 22:56 'whatsapp downloads'
+ 262346 drwxrwxr-x 16 abhishek abhishek 4.0K Apr 20 00:46  wpt
+2234522 drwxrwxr-x  3 abhishek abhishek 4.0K Apr 19 17:38  WPT_240344220005
+2538746 -rw-rw-r--  1 abhishek abhishek 381K Apr 19 17:39  WPT_240344220005.zip
+ 262546 drwxrwxr-x 10 abhishek abhishek 4.0K Apr 10 17:41  WPT_Assignments
+
+
+
+
+Question 4:
+abhishek@abhishek-TUF-Gaming:~$ ls CPP_Assignments/
+CPP_Assignment_1  CPP_Assignment_3  CPP_Assignment_5  CPP_Assignment_7  CPP_Assignment_9
+CPP_Assignment_2  CPP_Assignment_4  CPP_Assignment_6  CPP_Assignment_8
+
+
+Question 5:
+I)   abhishek@abhishek-TUF-Gaming:~$ cat > OS/os/day01/newAssign.txt
+     Abhishek Chandrakant Bhopale
+   
+II)  abhishek@abhishek-TUF-Gaming:~$ cat >> OS/os/day01/newAssign.txt
+     Address:Rukhmini Nagar Deomali, Paratwada
+
+III) abhishek@abhishek-TUF-Gaming:~$ cat  OS/os/day01/newAssign.txt
+     Abhishek Chandrakant Bhopale
+     Address:Rukhmini Nagar Deomali, Paratwada
+
+
+
+Question 6:
+abhishek@abhishek-TUF-Gaming:~$ ls -l OS/os/day01/newAssign.txt
+-rw-rw-r-- 1 abhishek abhishek 71 May 31 23:38 OS/os/day01/newAssign.txt
+
+
+
+Question 7:
+abhishek@abhishek-TUF-Gaming:~$ mkdir one
+abhishek@abhishek-TUF-Gaming:~$ cd one
+abhishek@abhishek-TUF-Gaming:~/one$ touch 1.txt 11.txt 111.txt
+abhishek@abhishek-TUF-Gaming:~/one$ mkdir two
+abhishek@abhishek-TUF-Gaming:~/one$ cd two/
+abhishek@abhishek-TUF-Gaming:~/one/two$ touch 2.txt 22.txt 222.txt
+abhishek@abhishek-TUF-Gaming:~/one/two$ mkdir three
+abhishek@abhishek-TUF-Gaming:~/one/two$ cd three/
+abhishek@abhishek-TUF-Gaming:~/one/two/three$ touch 3.txt 33.txt 333.txt
+abhishek@abhishek-TUF-Gaming:~/one/two/three$ mkdir four
+abhishek@abhishek-TUF-Gaming:~/one/two/three$ cd four/
+abhishek@abhishek-TUF-Gaming:~/one/two/three/four$ touch 4.txt 44.txt 444.txt
+abhishek@abhishek-TUF-Gaming:~/one/two/three/four$ mkdir five
+abhishek@abhishek-TUF-Gaming:~/one/two/three/four$ cd five/
+abhishek@abhishek-TUF-Gaming:~/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+abhishek@abhishek-TUF-Gaming:~/one/two/three/four/five$ cd ~
+
+
+
+Question 8:
+I)	abhishek@abhishek-TUF-Gaming:~$ ls one/two/three/four/five/
+	555.txt  55.txt  5.txt
+
+II)	abhishek@abhishek-TUF-Gaming:~$ cat >> one/two/three/four/44.txt
+	Abhishek Chandrakant Bhopale
+
+III)	abhishek@abhishek-TUF-Gaming:~$ rm one/two/three/four/five/555.txt 
+
+IV)	abhishek@abhishek-TUF-Gaming:~$ cd one/two/three/four/five
+	abhishek@abhishek-TUF-Gaming:~/one/two/three/four/five$
+
+V)	abhishek@abhishek-TUF-Gaming:~/one/two/three/four/five$ cat >> ../../3.txt 
+	Course Name : PG-DAC
+	
+VI)	abhishek@abhishek-TUF-Gaming:~/one/two/three/four/five$ ls ../../../
+	222.txt  22.txt  2.txt  three
+	
+VII)	abhishek@abhishek-TUF-Gaming:~/one/two/three/four/five$ rm ../../../222.txt 
+
+VIII)	abhishek@abhishek-TUF-Gaming:~/one/two/three/four/five$ cd ~/one
+
+IX)	abhishek@abhishek-TUF-Gaming:~/one$ rm two/three/four/five/5.txt two/three/four/five/55.txt
+
+X)	abhishek@abhishek-TUF-Gaming:~/one$ rm -r two/three/four/five
+
+XI)	abhishek@abhishek-TUF-Gaming:~/one$ rm -r two/three/four
+
+XII)	abhishek@abhishek-TUF-Gaming:~/one$ cd ~
+
+
+Question 9:
+Before touch
+-rw-rw-r-- 1 abhishek abhishek 21 May 31 23:52 one/two/three/3.txt
+
+abhishek@abhishek-TUF-Gaming:~$ touch one/two/three/3.txt 
+
+After touch
+-rw-rw-r-- 1 abhishek abhishek 21 Jun  1 00:05 one/two/three/3.txt
+
+
+
+
+
