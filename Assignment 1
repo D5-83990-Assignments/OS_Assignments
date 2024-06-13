@@ -1,0 +1,371 @@
+Question 1: 
+abhishek@abhishek-TUF-Gaming:~$ man which
+WHICH(1)                              General Commands Manual                             WHICH(1)
+
+NAME
+       which - locate a command
+
+SYNOPSIS
+       which [-a] filename ...
+
+DESCRIPTION
+       which  returns the pathnames of the files (or links) which would be executed in the current
+       environment, had its arguments been given as commands in a strictly POSIX-conformant shell.
+       It  does  this  by  searching the PATH for executable files matching the names of the argu‐
+       ments.  It does not canonicalize path names.
+
+OPTIONS
+       -a     print all matching pathnames of each argument
+
+EXIT STATUS
+       0      if all specified commands are found and executable
+
+       1      if one or more specified commands is nonexistent or not executable
+
+       2      if an invalid option is specified
+
+Debian                                      29 Jun 2016                                   WHICH(1)
+ Manual page which(1) line 1/25 (END) (press h for help or q to quit)
+
+
+
+
+Question 2:
+abhishek@abhishek-TUF-Gaming:~$ uname
+Linux
+
+
+Question 3:
+abhishek@abhishek-TUF-Gaming:~$ pwd
+/home/abhishek
+
+
+
+Question 4:
+abhishek@abhishek-TUF-Gaming:~$ hostname
+abhishek-TUF-Gaming
+
+
+
+Question 5:
+abhishek@abhishek-TUF-Gaming:~$ date
+Friday 31 May 2024 06:24:59 PM IST
+
+
+
+Question 6:
+abhishek@abhishek-TUF-Gaming:~$ cal -y
+                            2024
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3                  1  2  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   3  4  5  6  7  8  9  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  10 11 12 13 14 15 16  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  17 18 19 20 21 22 23  
+28 29 30 31           25 26 27 28 29        24 25 26 27 28 29 30  
+                                            31                    
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6            1  2  3  4                     1  
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3   1  2  3  4  5  6  7  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+28 29 30 31           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  22 23 24 25 26 27 28  
+27 28 29 30 31        24 25 26 27 28 29 30  29 30 31  
+
+
+Question 7:
+abhishek@abhishek-TUF-Gaming:~$ ls
+ cpp                      'DBT Assignments WORD DOCUMENT'   Public
+ CPP-240344220005          DBT_Practice                    'Screenshot from 2024-03-28 22-11-13.png'
+ CPP-240344220005.zip      Desktop                          snap
+ CPP_Assignments           Documents                        Templates
+ DAC_C++_Assignment        Downloads                        Videos
+ DAC_Prep_Assignment       Hello                           'whatsapp downloads'
+ DAC_Prep_Assignment.zip   mern                             wpt
+ dbt                       Music                            WPT_240344220005
+ DBT_240344220005          OS                               WPT_240344220005.zip
+ DBT_240344220005.zip      Pictures                         WPT_Assignments
+ DBT_Assignments           Postman
+
+
+abhishek@abhishek-TUF-Gaming:~$ dir
+cpp				  Hello
+CPP-240344220005		  mern
+CPP-240344220005.zip		  Music
+CPP_Assignments			  OS
+DAC_C++_Assignment		  Pictures
+DAC_Prep_Assignment		  Postman
+DAC_Prep_Assignment.zip		  Public
+dbt				  Screenshot\ from\ 2024-03-28\ 22-11-13.png
+DBT_240344220005		  snap
+DBT_240344220005.zip		  Templates
+DBT_Assignments			  Videos
+DBT\ Assignments\ WORD\ DOCUMENT  whatsapp\ downloads
+DBT_Practice			  wpt
+Desktop				  WPT_240344220005
+Documents			  WPT_240344220005.zip
+Downloads			  WPT_Assignments
+
+
+
+Question 8:
+abhishek@abhishek-TUF-Gaming:~$ cat > OS/os/day01/abc.txt
+
+
+
+Question 9:
+abhishek@abhishek-TUF-Gaming:~$ cat >> OS/os/day01/abc.txt
+Hi my name is Abhishek Bhopale
+
+
+
+Question 10:
+Copy File
+abhishek@abhishek-TUF-Gaming:~$ cp OS/os/day01/Day01_Notes.pdf OS/os/Assignments/
+
+Copy Directory
+abhishek@abhishek-TUF-Gaming:~$ cp -r /tmp//newFold OS/os/day01
+
+
+
+Question 11:
+Move File
+abhishek@abhishek-TUF-Gaming:~$ mv /tmp/newfile.txt /home/abhishek/OS/os/day01
+
+
+
+Question 12:
+Rename File
+abhishek@abhishek-TUF-Gaming:~/OS/os/day01$ mv file4.txt file4renew.txt
+
+
+
+Question 13:
+
+For tac
+abhishek@abhishek-TUF-Gaming:~/OS/os/day01$ tac file4renew.txt 
+This is some practice example.
+This module is new for me.
+Hi myself abhishek bhopale.
+
+For rev
+abhishek@abhishek-TUF-Gaming:~/OS/os/day01$ rev file4renew.txt 
+.elapohb kehsihba flesym iH
+.em rof wen si eludom sihT
+.elpmaxe ecitcarp emos si sihT
+
+
+Question 14:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day01$ wc < file4renew.txt 
+ 3 15 86
+
+
+Question 15:
+abhishek@abhishek-TUF-Gaming:~/OS/os/day01$ mkdir newFold
+
+
+Question 16:
+abhishek@abhishek-TUF-Gaming:~$ cd OS/os/day01/
+
+
+Question 17:
+Remove file
+abhishek@abhishek-TUF-Gaming:~$ rm OS/os/day01/newFold/file6.txt
+
+Remove directory
+abhishek@abhishek-TUF-Gaming:~$ rm -R OS/os/day01/newFold/
+
+
+Question 18:
+abhishek@abhishek-TUF-Gaming:~$ rmdir OS/os/day01/NewFold
+
+
+Question 19:
+Change the modification time
+abhishek@abhishek-TUF-Gaming:~$ ls -l OS/os/day01/file4renew.txt
+-rwxrwxrwx 1 abhishek abhishek 86 May 31 20:51 OS/os/day01/file4renew.txt
+
+Create multiple empty files at once 
+abhishek@abhishek-TUF-Gaming:~$ touch OS/os/day01/file7.txt touch OS/os/day01/file8.txt touch OS/os/day01/file9.txt
+
+
+
+Question 20:
+abhishek@abhishek-TUF-Gaming:~$ sort -n OS/os/day01/file4renew.txt 
+Hi myself abhishek bhopale.
+This is some practice example.
+This module is new for me.
+
+
+
+Question 21:
+abhishek@abhishek-TUF-Gaming:~$ cat OS/os/day01/file4renew.txt 
+Hi myself abhishek bhopale.
+This module is new for me.
+This is some practice example.
+This is some practice example.
+abhishek@abhishek-TUF-Gaming:~$ uniq OS/os/day01/file4renew.txt 
+Hi myself abhishek bhopale.
+This module is new for me.
+This is some practice example.
+
+
+
+Question 22:
+abhishek@abhishek-TUF-Gaming:~$ head OS/os/day01/file4renew.txt 
+Hi myself abhishek bhopale.
+This module is new for me.
+This is some practice example.
+This is some practice example.
+abhishek@abhishek-TUF-Gaming:~$ head -2 OS/os/day01/file4renew.txt 
+Hi myself abhishek bhopale.
+This module is new for me.
+
+
+
+Question 23:
+abhishek@abhishek-TUF-Gaming:~$ tail OS/os/day01/file4renew.txt 
+Hi myself abhishek bhopale.
+This module is new for me.
+This is some practice example.
+This is some practice example.
+abhishek@abhishek-TUF-Gaming:~$ tail -2 OS/os/day01/file4renew.txt 
+This is some practice example.
+This is some practice example.
+abhishek@abhishek-TUF-Gaming:~$ 
+
+
+
+
+Question 24:
+abhishek@abhishek-TUF-Gaming:~$ factor 45
+45: 3 3 5
+
+
+
+Question 25:
+abhishek@abhishek-TUF-Gaming:~$ f 45
+45: 3 3 5
+
+
+
+Question 26:
+abhishek@abhishek-TUF-Gaming:~$ unalias f
+abhishek@abhishek-TUF-Gaming:~$ f 45
+f: command not found
+
+
+
+Question 27:
+abhishek@abhishek-TUF-Gaming:~$ printenv
+SHELL=/bin/bash
+SESSION_MANAGER=local/abhishek-TUF-Gaming:@/tmp/.ICE-unix/3091,unix/abhishek-TUF-Gaming:/tmp/.ICE-unix/3091
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+SSH_AGENT_LAUNCHER=gnome-keyring
+NVM_INC=/home/abhishek/.nvm/versions/node/v20.12.2/include/node
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GTK_IM_MODULE=ibus
+LANGUAGE=en_IN:en
+GNOME_SHELL_SESSION_MODE=ubuntu
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+GTK_MODULES=gail:atk-bridge
+PWD=/home/abhishek
+LOGNAME=abhishek
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+SYSTEMD_EXEC_PID=3120
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+HOME=/home/abhishek
+USERNAME=abhishek
+LANG=en_IN
+
+
+
+Question 28:
+abhishek@abhishek-TUF-Gaming:~$ ps
+    PID TTY          TIME CMD
+   7268 pts/0    00:00:01 bash
+  13992 pts/0    00:00:00 ps
+
+
+
+Question 29:
+abhishek@abhishek-TUF-Gaming:~$ ps
+    PID TTY          TIME CMD
+  14262 pts/0    00:00:00 bash
+  14479 pts/0    00:00:00 ps
+abhishek@abhishek-TUF-Gaming:~$ kill -l
+ 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
+ 6) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
+11) SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
+16) SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
+21) SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
+26) SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
+31) SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
+38) SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
+43) SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
+48) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
+53) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
+58) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+63) SIGRTMAX-1	64) SIGRTMAX	
+abhishek@abhishek-TUF-Gaming:~$ kill -9 14262
+=> After this command terminal will be turn off.
+
+
+
+Question 30:
+abhishek@abhishek-TUF-Gaming:~$ env
+SHELL=/bin/bash
+SESSION_MANAGER=local/abhishek-TUF-Gaming:@/tmp/.ICE-unix/3091,unix/abhishek-TUF-Gaming:/tmp/.ICE-unix/3091
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+SSH_AGENT_LAUNCHER=gnome-keyring
+NVM_INC=/home/abhishek/.nvm/versions/node/v20.12.2/include/node
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GTK_IM_MODULE=ibus
+LANGUAGE=en_IN:en
+GNOME_SHELL_SESSION_MODE=ubuntu
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+GTK_MODULES=gail:atk-bridge
+PWD=/home/abhishek
+LOGNAME=abhishek
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+SYSTEMD_EXEC_PID=3120
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+HOME=/home/abhishek
+USERNAME=abhishek
+LANG=en_IN
+
